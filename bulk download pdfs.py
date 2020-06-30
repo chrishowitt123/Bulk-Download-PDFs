@@ -5,7 +5,7 @@ filenames = pd.read_excel('filenamesnew.xlsx')
 filenames = filenames['New']
 filenames = filenames.tolist()
 
-
+url_list = dfurl['URLS'].tolist()
 
 b = 0
 
